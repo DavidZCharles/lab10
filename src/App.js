@@ -11,8 +11,7 @@ function App() {
           <h2>Intro</h2>
           <p>
               The framework I chose to use was React. This entire page was made using
-              a combincation of React, CSS, JavaScript, and 
-              <a href="https://vercel.com/">Vercel.</a> It will cover 
+              a combincation of React, CSS, JavaScript, and <a href="https://vercel.com/">Vercel.</a> It will cover 
               the process of building the page including how the framework was installed, 
               how it was designed, and overcoming challenges found. 
           </p>
@@ -21,9 +20,8 @@ function App() {
           <h2>Installation process</h2>
               <p>
                   In order to use React I first had to install Node.js on my computer.
-                  I retrieved it from the <a href="https://nodejs.org/en">official website</a> 
-                  to install the latest version. Afterwards, I used VS Code to edit and build
-                  my webpage. 
+                  I retrieved it from the <a href="https://nodejs.org/en">official website</a> to install the latest version. 
+                  Afterwards, I used VS Code to edit and build my webpage. 
               </p>
         </section>
         <section className="Building">
