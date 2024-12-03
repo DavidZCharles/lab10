@@ -21,7 +21,7 @@ function App() {
           <h2>Installation process</h2>
               <p>
                   In order to use React I first had to install Node.js on my computer.
-                  I retrieved it from the <a href="https://nodejs.org/en">official website</a>
+                  I retrieved it from the <a href="https://nodejs.org/en">official website</a> 
                   to install the latest version. Afterwards, I used VS Code to edit and build
                   my webpage. 
               </p>
