@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -12,7 +11,8 @@ function App() {
           <h2>Intro</h2>
           <p>
               The framework I chose to use was React. This entire page was made using
-              a combincation of React, CSS, JavaScript, and GitHub Pages. It will cover 
+              a combincation of React, CSS, JavaScript, and 
+              <a href="https://vercel.com/">Vercel.</a> It will cover 
               the process of building the page including how the framework was installed, 
               how it was designed, and overcoming challenges found. 
           </p>
@@ -38,20 +38,19 @@ function App() {
                   I used the following command in the VS Code terminal 
                   to create my React App. It took a couple minutes for 
                   it to load everything, but this generated the necessary 
-                  files for my webpage.
+                  files for my webpage. This also Initialized the app as a
+                  git repository.
               </li>
               <pre><code>npx create-react-app lab10</code></pre> 
               <li>
-                  After creating the app, I next had to enter the directory and locally tested it runs.
-                  To do this I then entered the following commands to enter the development server. This
-                  opened on my local browser, displaying the default template.
-                  <pre><code>cd lab10
-npm start</code></pre>
+                  After creating the app, I next had to enter the directory.
+                  This ensured that the git commands I later use properly work.
+                  <pre><code>cd lab10</code></pre>
               </li>
               <li>
                   Next came the actual webpage development. Once ensuring that the page
                   could be hosted locally, I filled in the content of the page using
-                  a JavaScript file. From within the file I also imported a related CSSnpx create-react-app lab10
+                  a JavaScript file. From within the file I also imported a related CSS
                   file to handle the design/format of the webpage.
               </li>
           </ol>
@@ -64,35 +63,27 @@ npm start</code></pre>
             </p>
             <ol>
                 <li>
-                    First I began by creating a dedicated gh-pages Branch. Using the following
-                    command created and switched to the gh-pages branch. I did this to explicitly
-                    ensure that a gh-pages branch was being generated.
+                    First I needed to build the page. This was executed with the following command:
                 </li>
-                <pre><code>git checkout --orphan gh-pages</code></pre> 
+                <pre><code>npm run build</code></pre> 
                 <li>
-                    Afterwards, I needed to update the package.json file for my React App. This involved
-                    adding the following properites to the file
-                    <pre><code>"homepage": "https://DavidZCharles.github.io/lab10"
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"</code></pre> 
-                </li>
-                <li>
-                    I then needed to push the code to GitHub, using these series of commands
-                    <pre><code>git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/DavidZCharles/lab10.git
-git branch -M main
-git push -u origin main</code></pre>
+                    Next, I had to connect the React app to the dedicated repository.
+                    In this way, I pushed all changes I made to the app to the repository.  
+                    Since I was adding an existing repository to it, the commands I used
+                    these commands:
+                    <pre><code>git remote add origin https://github.com/DavidZCharles/lab10.git</code></pre>
+                    <pre><code>git branch -M main</code></pre>
+                    <pre><code>git push -u origin main</code></pre>
                 </li>
                 <li>
-                    Next I installed the gh-pages package. This command should have also created
-                    the branch but for safety was done manually.
-                    <pre><code>npm install gh-pages --save-dev</code></pre> 
+                    Afterwards, I needed to link the project to Vercel to host the webpage. 
+                    This was done by simply using the command:
+                    <pre><code>vercel</code></pre>
                 </li>
                 <li>
-                    Finally, all that was left was to deploy the app. This was done with a simple command.
-                    <pre><code>npm run deploy</code></pre> 
+                    Finally, all that was left was to deploy the app. Through Vercel, I needed to use
+                    the next command to successfully deploy my webpage
+                    <pre><code>vercel --prod</code></pre> 
                 </li>
             </ol>
         </section>

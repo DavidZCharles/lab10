@@ -3,6 +3,9 @@ body {
   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
   'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: rgb(204, 225, 235);
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .App header {
   background-color: hsl(220, 77%, 45%);
@@ -21,7 +24,7 @@ body {
   margin-top: 20px;
 }
 code {
-  font-size: x-large;
+  font-size: large;
   color: black;
 }
 pre {
