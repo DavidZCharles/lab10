@@ -104,6 +104,7 @@ must be configured with the "repo" option).</code></pre>
                 what got my webpage to finally deploy was by doing the following:
             </p>
         </section>
+        <footer><small>© 2024 DZFC</small></footer>
       </main>
     </div>
   );
