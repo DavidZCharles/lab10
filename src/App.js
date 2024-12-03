@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header>
-          <h1>Lab 10c React Project</h1>
+          <h1>Lab 10 Problem 3: React Project</h1>
       </header>
       <main>
         <section className="Introduction">
