@@ -88,7 +88,7 @@ function App() {
                 Since I had to try this multiple times to see if it would fix 
                 my previous issue, I ended up wasting hours just waiting for my files to 
                 be deleted and installed. A couple of times I also attempted to start from scratch, 
-                meaning deleting the entire react app folder and creating it again. This 
+                meaning deleting the entire React app folder and creating it again. This 
                 process also took about an hour to complete so I tried to avoid doing it 
                 as much as possible. I realized at the end that my computer would take so 
                 long to handle all these files because I was saving them on a personal USB. 
