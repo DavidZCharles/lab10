@@ -67,8 +67,33 @@ function App() {
         <section className="Challenges">
             <h2>Challenges I Faced</h2>
             <p>
-                Throughout the entire webpage development I only ran into one major issue. This unfortunately only happened when I needed to deploy the app, which is the final step to hosting this webpage. Whenever I ran the deploy command, it always resulted in the following error:
-                <pre><code></code></pre>
+                Throughout the development, I ran into two main problems. 
+                The first was the most problematic as it involved the deployment 
+                of my React app. Initially, I planned on using GitHub Pages, however 
+                I was not able to get it running. Despite following the official 
+                tutorial step by step, it consistently failed to 
+                fetch my origin URL upon deployment. The error kept saying I needed to run the command 
+                in a GitHub repository, which it was, or further specified in the build 
+                script. I'm quite familiar with the deployment process through GitHub 
+                pages now but still not sure why it was unable to complete on my computer. 
+                I tried various troubleshooting methods for people who ran into the same issue 
+                as me and nothing worked. Eventually, I switched to Vercel which was much 
+                easier to accomplish. On the first attempt it successfully hosted my website.
+            </p>
+            <p>
+                The second issue had to do with the size of the files. Part of my 
+                troubleshooting process involved having to delete the node modules 
+                folder and reinstalling it. Due to the number of files within the folder, 
+                completing the whole process on my computer would always take about an hour. 
+                Since I had to try this multiple times to see if it would fix 
+                my previous issue, I ended up wasting hours just waiting for my files to 
+                be deleted and installed. A couple of times I also attempted to start from scratch, 
+                meaning deleting the entire react app folder and creating it again. This 
+                process also took about an hour to complete so I tried to avoid doing it 
+                as much as possible. I realized at the end that my computer would take so 
+                long to handle all these files because I was saving them on a personal USB. 
+                I tried switching to my other hard drive which is an SSD and noticed the time 
+                to delete and install reduced significantly.
             </p>
         </section>
         <footer><small>© 2024 DZFC</small></footer>
